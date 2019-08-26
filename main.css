@@ -22,10 +22,14 @@ h1 {
     max-width: 100%;
 }
 
-.game_bucket {
+.media_bucket {
     background-color: red;
     flex-grow: 1;
     /*min-width: 240px;*/
+}
+
+.media_bucket_header {
+    border-bottom: 2px solid black;
 }
 
 @media only screen and (max-width: 800px)
